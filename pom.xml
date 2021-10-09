@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>by.training.fundamental</groupId>
-    <artifactId>task2-maven-junit</artifactId>
+    <artifactId>jwd02-maven-junit</artifactId>
     <version>0.0.1</version>
     <dependencies>
         <dependency>
