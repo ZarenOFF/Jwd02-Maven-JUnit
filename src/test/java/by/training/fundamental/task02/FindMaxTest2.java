@@ -11,7 +11,7 @@ public class FindMaxTest2 {
         int thirdNumber = 564;
         int expectedMax = 967;
 
-        int realMax = Main.findMaxNumber(firstNumber, secondNumber, thirdNumber);
+        int realMax = LogicController.findMaxNumber(firstNumber, secondNumber, thirdNumber);
         Assert.assertEquals(expectedMax, realMax);
     }
 }

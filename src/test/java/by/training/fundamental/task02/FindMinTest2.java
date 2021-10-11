@@ -11,7 +11,7 @@ public class FindMinTest2 {
         int thirdNumber = 564;
         int expectedMin = 564;
 
-        int realMin = Main.findMinNumber(firstNumber, secondNumber, thirdNumber);
+        int realMin = LogicController.findMinNumber(firstNumber, secondNumber, thirdNumber);
         Assert.assertEquals(expectedMin, realMin);
     }
 }
