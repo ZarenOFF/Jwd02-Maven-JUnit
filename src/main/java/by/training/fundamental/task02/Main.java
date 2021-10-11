@@ -1,7 +1,5 @@
 package by.training.fundamental.task02;
 
-import java.util.Scanner;
-
 /*Написать программу нахождения суммы большего и меньшего из трех чисел.*/
 
 public class Main {
