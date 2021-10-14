@@ -11,7 +11,9 @@ public class FindSumTest1 {
         int thirdNumber = 548;
         int expectedSum = -11;
 
-        int realSum = LogicController.calculateSum(firstNumber, secondNumber, thirdNumber);
+        MathProblem mathProblem = new MathProblem(firstNumber, secondNumber, thirdNumber);
+        int realSum = mathProblem.calculateSum();
+
         Assert.assertEquals(expectedSum, realSum);
     }
 }
