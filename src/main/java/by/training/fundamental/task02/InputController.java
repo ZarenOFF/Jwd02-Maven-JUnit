@@ -2,7 +2,11 @@ package by.training.fundamental.task02;
 
 import java.util.Scanner;
 
-public class InputController {
+public final class InputController {
+
+    private InputController() {
+    }
+
     public static final String WRONG_INPUT_INT = "Wrong input format. Integer expected.";
 
     public static int enterNumberFromConsole() {
